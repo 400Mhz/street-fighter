@@ -1,0 +1,165 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+:root{
+    --color-01: #ff9500;
+    --color-02: #ff0000;
+}
+
+ul{
+    list-style-type: none;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.container {
+    width: 80%;
+    margin: auto;   
+}
+
+img{
+    display: block;
+    max-width: 15%;
+}
+
+#cerebro{
+    margin-bottom: 30px;
+    position: sticky;
+    background-color: transparent;
+    top: 0;
+    z-index: 1;
+    margin-right: 100px;
+    height: 80px;
+}
+
+#cerebro #logo {
+    width: 300px;
+    float: left;
+}
+
+#cerebro #menu ul{
+    display: flex;
+    font-size: 20px;
+}
+
+#cerebro .container{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+ 
+}
+
+#cerebro #menu a{
+    color: #FFF;
+    display: block;
+    padding: 35px;
+    text-decoration: none;
+    transition: all 0.3s linear;
+}
+
+#cerebro #menu a:hover{
+    background-color: var(--color-01);
+}
+
+.jogos img {
+    border-radius: 10px;
+    max-width: 600px;
+    margin-left: 269px;
+    margin-bottom: 100px;
+}
+
+.jogos .titulo {
+    color: #FFF;
+    margin-left: 10px;
+    line-height: 200px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.jogos p {
+    text-align: justify;
+    margin-bottom: 35px;
+    line-height: 30px;
+}
+
+.evo .container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+
+.evo iframe{
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.deuses img{
+    max-width: 500px;
+    margin-bottom: 50px;
+    margin-left: 370px;
+}
+
+.perso img{
+    max-width: 500px;
+    margin-bottom: 50px;
+    margin-left: 350px;
+}
+
+.torneios img{
+    max-width: 400px;
+    margin-bottom: 40px;
+    margin-left: 400px;
+}
+
+.titulo{
+    font-size: 50px;
+    text-align: center;
+    line-height: 100px;
+    color: #FFF;
+}
+
+.texto{
+    max-width: 1200px;
+    text-align: center;
+    margin: 0 auto 100px;
+}
+
+.texto .title{
+    text-align: center;
+    margin-top: 480px;
+    margin-bottom: 50px;
+    color: #FFF;
+}
+
+.texto p {
+    color: #FFF;
+    line-height: 40px;
+    font-size: 28px;
+}
+
+#rodape{
+    background-color: rgba(0, 0, 0, 0.8);
+    font-style: italic;
+    text-align: center;
+    line-height: 20px;
+    color: #fff;
+    transition: 2.0s;
+    padding: 20px;
+}
+
+#rodape a {
+    color: var(--color-02);
+    text-decoration: none;
+}
+
+#rodape a:hover{
+    text-decoration: underline;
+}
