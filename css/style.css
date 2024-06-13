@@ -18,6 +18,8 @@ body{
     background-size: 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-image: linear-gradient(to right, rgba(255,0,0,0.8), rgba(0, 0, 0, 0.8)), url("../imagens/gif_akuma.jpg");
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .container {
@@ -36,7 +38,6 @@ img{
     background-color: transparent;
     top: 0;
     z-index: 1;
-    margin-right: 100px;
     height: 80px;
 }
 
@@ -45,24 +46,37 @@ img{
     float: left;
 }
 
-#cerebro #menu ul{
+#cerebro #menu{
     display: flex;
-    font-size: 20px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    margin-top: 20px;
 }
 
-#cerebro .container{
+#cerebro #menu ul{
+    background-color: rgba(0, 0, 0, 0.5);
     display: flex;
-    justify-content: end;
-    align-items: center;
- 
+    border-radius: 25px;
+}
+
+#cerebro #menu ul li {
+    display: flex;
+    flex: 1;
 }
 
 #cerebro #menu a{
     color: #FFF;
-    display: block;
-    padding: 35px;
+    font-size: 20px;
+    padding: 20px;
     text-decoration: none;
+    text-align: center;
     transition: all 0.3s linear;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
 }
 
 #cerebro #menu a:hover{
